@@ -248,3 +248,25 @@ body
 		margin-left: 0;
 	}
 }
+
+/*------------------------Featured-categories CSS-------------------*/
+
+.featured-categories
+{
+	margin: 50px 0;
+}
+
+.featured-categories img
+{
+	width: 100%;
+	padding: 20px 0;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.featured-categories img:hover
+{
+	transform: scale(1.1);
+}
+
+/*------------------------On Sale Product CSS-----------------------*/
