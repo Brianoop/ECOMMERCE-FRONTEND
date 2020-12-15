@@ -80,7 +80,7 @@ body
 	list-style-type: none !important;
 	padding: 15px 35px !important;
 	text-align: center !important;
-	background-color: orange;
+	background-color: orange !important;
 	cursor: pointer;
 }
 
@@ -95,4 +95,35 @@ body
 .fa-shopping-basket
 {
 	margin-right: 5px;
+}
+
+@media only screen and (max-width: 980px)
+{
+	.top-nav-bar
+	{
+		height: 118px;
+		border-bottom: 0;
+	}
+
+	.search-box
+	{
+		width: 100% !important;
+	}
+
+	.menu-bar
+	{
+		width: 100% !important;
+	}
+
+	.menu-bar ul
+	{
+		margin: 10px 0;
+		width: 100% !important;
+	}
+
+	.menu-bar ul li
+	{
+		height: 57px;
+		width: 100% !important;
+	}
 }
