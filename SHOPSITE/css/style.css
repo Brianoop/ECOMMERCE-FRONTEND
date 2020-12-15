@@ -101,7 +101,7 @@ body
 {
 	.top-nav-bar
 	{
-		height: 118px;
+		height: 118px !important;
 		border-bottom: 0;
 	}
 
@@ -117,7 +117,7 @@ body
 
 	.menu-bar ul
 	{
-		margin: 10px 0;
+		margin: 10px 0 !important;
 		width: 100% !important;
 	}
 
@@ -125,5 +125,98 @@ body
 	{
 		height: 57px;
 		width: 100% !important;
+	}
+}
+
+
+/*-------------------Side Menu ----------------------*/
+
+.side-menu
+{
+	height: 79% !important;
+	width: 15% !important;
+	font-size: 14px;
+	float: left !important;
+	z-index: 2 !important;
+	background-color: #ddd;
+}
+
+.side-menu ul
+{
+	margin-left: 10px !important;
+}
+
+.side-menu ul li
+{
+	list-style-type: none ;
+	font-weight: bold ;
+	margin-top: 10px !important;
+	cursor: pointer;
+}
+
+.side-menu ul li:hover 
+{
+	color: orange;
+}
+
+.side-menu ul li ul
+{
+	display: none ;
+	z-index: 10 !important;
+	top: 77px;
+}
+
+.side-menu ul li:hover ul
+{
+	display: block;
+	height: 400px;
+	margin-left: 14px !important;
+	padding: 0 100px 10px 10px ;
+	position: fixed !important;
+	background: #ececec;
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5) !important;
+}
+
+.fa-angle-right
+{
+	margin-top: 4px ;
+	margin-right: 8px;
+	float: right;
+}
+
+#menu-btn, #close-btn
+{
+	font-size: 30px;
+	margin: 10px;
+	color: orange;
+	display: none;
+}
+
+
+@media only screen and (max-width: 980px)
+{
+	.side-menu
+	{
+		width: 34%;
+		z-index: 20;
+		top: 33px;
+		position: fixed;
+		font-size: 12px;
+		display: none;
+	}
+
+	.side-menu ul li ul
+	{
+		top: 133px;
+	}
+
+	.side-menu ul li:hover ul
+	{
+		margin-left: 31%; 
+	}
+
+	#menu-btn
+	{
+		display: block;
 	}
 }
