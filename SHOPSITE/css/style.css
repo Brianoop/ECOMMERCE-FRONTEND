@@ -484,3 +484,13 @@ body
 	text-align: center;
 	width: 30px;
 }
+
+.single-product .btn-primary
+{
+	background: orange !important;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+	border: none !important;
+	box-shadow: none !important;
+}
