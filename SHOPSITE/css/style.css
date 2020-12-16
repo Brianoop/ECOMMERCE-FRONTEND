@@ -494,3 +494,16 @@ body
 	border: none !important;
 	box-shadow: none !important;
 }
+
+/*---------------------------Product Description-------------------*/
+
+.product-description h6
+{
+	margin-top: 50px;
+	color: orange;
+}
+
+.product-description p
+{
+	margin-top: 30px;
+}
