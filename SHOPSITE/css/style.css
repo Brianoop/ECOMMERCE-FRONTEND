@@ -456,3 +456,9 @@ body
 	font-weight: bold;
 	margin-top: 20px;
 }
+
+.col-md-7 h2
+{
+	color: #555;
+	
+}
