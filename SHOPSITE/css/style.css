@@ -439,3 +439,20 @@ body
 	padding-right: 20px;
 	font-size: 15px;
 }
+
+/*----------------------Single Product---------------------*/
+
+.single-product
+{
+	margin-top: 70px;
+} 
+
+.new-arrival
+{
+	background: green;
+	width: 50px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+}
