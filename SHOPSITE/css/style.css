@@ -342,3 +342,24 @@ body
 	margin-left: 5%;
 	transition: 0.5s;
 }
+
+
+/*--------------------------Product Bottom CSS----------------------------*/
+
+.product-bottom .fa
+{
+	color: orange;
+	font-size: 10px;
+}
+
+.product-bottom h3
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product-bottom h5
+{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
