@@ -408,3 +408,11 @@ body
 {
 	font-size: 12px;
 }
+
+.copyright
+{
+	margin-bottom: -80px;
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
