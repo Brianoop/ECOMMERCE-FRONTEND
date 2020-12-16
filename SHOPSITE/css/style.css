@@ -460,5 +460,27 @@ body
 .col-md-7 h2
 {
 	color: #555;
-	
+
+}
+
+.single-product .fa
+{
+	color: orange;
+}
+
+.single-product .price
+{
+	color: orange;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.single-product input
+{
+	border: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: center;
+	width: 30px;
 }
