@@ -249,7 +249,7 @@ body
 	}
 }
 
-/*------------------------Featured-categories CSS-------------------*/
+/*------------------------Featured Products CSS-------------------*/
 
 .featured-categories
 {
@@ -304,6 +304,12 @@ body
 .product-top img
 {
 	width: 100%;
+	transition: 1s;
+}
+
+.product-top img:hover
+{
+	transform: scale(1.1);
 }
 
 .overlay-right
