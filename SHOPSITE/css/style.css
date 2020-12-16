@@ -433,3 +433,9 @@ body
 {
 	width: 150px;
 }
+
+.footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+}
