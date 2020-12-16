@@ -422,3 +422,14 @@ body
 	color: red;
 	font-size: 15px;
 }
+
+.footer hr
+{
+	margin-top: 10px;
+	background-color: #ccc;
+}
+
+.footer-image img 
+{
+	width: 150px;
+}
