@@ -507,3 +507,8 @@ body
 {
 	margin-top: 30px;
 }
+
+.product-description hr
+{
+	margin-bottom: 50px;
+}
