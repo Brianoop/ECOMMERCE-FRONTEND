@@ -381,3 +381,30 @@ body
 {
 	width: 20%;
 }
+
+.feature-text
+{
+	margin-top: 10px;
+	float: right;
+	width: 80%;
+	padding-left: 20px;
+}
+
+.feature-box
+{
+	padding-top: 20px;
+}
+
+/*--------------------------Footer CSS--------------------------*/
+
+.footer
+{
+	margin-top: 50px;
+	background: #000;
+	color: #fff;
+}
+
+.footer p
+{
+	font-size: 12px;
+}
