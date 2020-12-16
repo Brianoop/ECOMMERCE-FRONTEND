@@ -320,7 +320,7 @@ body
 {
 	cursor: pointer;
 	background-color: #fff;
-	color: #ooo;
+	color: #000;
 	height: 35px;
 	width: 35px;
 	font-size: 20px;
@@ -331,6 +331,14 @@ body
 
 .overlay-right .btn-secondary
 {
-	background: none;
-	border: none;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.product-top:hover .overlay-right
+{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
 }
